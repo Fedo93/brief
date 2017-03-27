@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        
+        <meta name="format-detection" content="telephone=no">
+        
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link href="fonts-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="css/jquery.mobile.structure-1.4.5.css" rel="stylesheet" type="text/css"/>
+        <link href="css/jquery.mobile.icons-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/jquery.mobile.theme-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <a href="bootstrap/css/bootstrap-theme.min.css.map"></a>
+        <link href="css/mystyle.css" rel="stylesheet" type="text/css"/>
+        <!--<script type="text/javascript" src="cordova.js"></script>-->
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="js/jquery-2.2.4.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.4.5.js" type="text/javascript"></script>
+        <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/index.js" type="text/javascript"></script>
+        <title></title>
+    </head>
+    <body>
+       <div data-role="page" id="pageone">
+           
+  <div data-role="panel" id="myPanel" data-display="push" data-dismissible="true" data-theme="a" class="ui-panel ui-panel-position-left">
+            <ul data-role="listview" class="ui-listview panel">
+                
+                <li><a class="ui-btn li-cultura" style="border-bottom-width: 6px;
+    border-bottom-color: #003f86;" href="#cultura">Cultura</a></li>
+                <li><a class="ui-btn li-natura" style="border-bottom-width: 6px;
+    border-bottom-color: #128d6e;" href="#natura" <span>Natura</span></a></li>
+                <li><a class="ui-btn li-ristoro" style="border-bottom-width: 6px;
+    border-bottom-color: #c70928;" href="#ristoro">Ristoro</a></li>
+                <li><a class="ui-btn li-alloggi" style="border-bottom-width: 6px;
+    border-bottom-color: #ee7f01;" href="#alloggi">Alloggi</a></li>
+               
+            </ul>
+        </div>
+
+  <div data-role="header" data-position="fixed">
+      <div data-role="main" class="ui-content" style="background-color: #fff;">
+          <div class="logo" style="float:right;margin-right: 98px;">
+              <a href="#pageone"><img src="img/logo-bologna.jpg" alt=""/></a>
+          </div>
+    <a href="#myPanel" class="ui-btn  ui-icon-bars ui-btn-icon-notext "></a>
+  </div>
+  </div>
+
+           
+           <div data-role="content" class="ui-content" role="main">
+               <img class="bolognahome" src="img/bologna_home.jpg" alt=""/>
+               <hr align=”center” size=”3″ width=”100″ color=”red” noshade>
+               <h4 style="text-align: center;">La città più bella del mondo </h4>
+               <hr align=”center” size=”3″ width=”100″ color=”red” noshade>
+               <p style="margin:10px 10px 10px;"><strong>Bologna</strong> &egrave; una citt&agrave; italiana di 388.257 abitanti, capoluogo dell'omonima citt&agrave; metropolitana. Si tratta del settimo comune pi&ugrave; popolato d'Italia ed &egrave; il cuore di un'area metropolitana di 1.005.831 abitanti. Antichissima città universitaria, Bologna ospita numerosi studenti che ne animano la vita culturale e sociale. Nota per le sue torri e i suoi lunghi portici, possiede un ben conservato centro storico, fra i più estesi d'Italia. E' un importante nodo di comunicazioni stradali e ferroviarie del nord Italia, in un'area in cui risiedono importanti industrie meccaniche, elettroniche e alimentari. È sede di prestigiose istituzioni culturali, economiche e politiche e di uno dei più avanzati quartieri fieristici d'Europa. Nel 2000 è stata "capitale europea della cultura", mentre dal 2006 è "città della musica" UNESCO.</p>
+               <img class="bolognahome2" src="img/bologna_home2.jpg" alt=""/>
+               <hr align=”center” size=”3″ width=”100″ color=”red” noshade>
+               <h4 style="text-align:center;">Info</h4>
+               <hr align=”center” size=”3″ width=”100″ color=”red” noshade>
+	
+	<form class="form">
+		
+		<p class="nome">
+                    <label for="nome">Nome</label>
+			<input type="text" name="nome" id="nome" placeholder="Inserisci il nome" />
+		</p>
+                
+                <p class="cognome">
+                    <label for="cognome">Cognome</label>
+			<input type="text" name="cognome" id="cognome" placeholder="Inserisci il cognome" />
+		</p>
+		
+		<p class="email">
+                    <label for="email">Email</label>
+			<input type="text" name="email" id="email" placeholder="Inserisci l'email" />
+		</p>		
+	
+		<p class="text">
+                    <label for="messaggio">Messaggio</label>
+			<textarea name="text" placeholder="Messaggio" /></textarea>
+		</p>
+		
+		<p class="submit">
+			<input type="submit" value="Invia" />
+		</p>
+	</form>
+               
+           </div>
+
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+  <div data-role="navbar">
+    <ul>
+      <li><a class="ui-btn li-home" style="border-bottom-width: 6px;
+    border-bottom-color: #47a2b1;" href="#home">Home</a></li>
+      <li><a class="ui-btn servizi" style="border-bottom-width: 6px;
+    border-bottom-color: #fcc700;" href="#contatti">Contatti</a></li>
+      <li><a class="ui-btn geol" style="border-bottom-width: 6px;
+    border-bottom-color: #660593;" href="#geol">Mappa</a></li>
+    </ul>
+  </div>
+</div> 
+</div> 
+
+        
+        
+        
+        
+        
+        <div data-role="page" id="cultura" class="pagina">
+  <div data-role="panel" id="myPanelCultura" data-display="push" data-dismissible="true" data-theme="a" class="ui-panel ui-panel-position-left">
+            <ul data-role="listview" class="ui-listview panel">
+                
+                <li><a class="ui-btn li-cultura" style="border-bottom-width: 6px;
+    border-bottom-color: #003f86;" href="#cultura">Cultura</a></li>
+                <li><a class="ui-btn li-natura" style="border-bottom-width: 6px;
+    border-bottom-color: #128d6e;" href="#natura" <span>Natura</span></a></li>
+                <li><a class="ui-btn li-ristoro" style="border-bottom-width: 6px;
+    border-bottom-color: #c70928;" href="#ristoro">Ristoro</a></li>
+                <li><a class="ui-btn li-alloggi" style="border-bottom-width: 6px;
+    border-bottom-color: #ee7f01;" href="#alloggi">Alloggi</a></li>
+               
+            </ul>
+        </div> 
+
+  <div data-role="header" data-position="fixed">
+      <div data-role="main" class="ui-content" style="background-color: #fff;">
+          <div class="logo" style="float:right;margin-right: 98px;">
+              <a href="#pageone"><img src="img/logo-bologna.jpg" alt=""/></a>
+          </div>
+    <a href="#myPanelCultura" class="ui-btn  ui-icon-bars ui-btn-icon-notext "></a>
+  </div>
+  </div>
+
+            <div data-role="content">
+                <div id="cultura-content" style="background-color: #fff;"></div>
+            </div>
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+  <div data-role="navbar">
+    <ul>
+      <li><a class="ui-btn li-home" style="border-bottom-width: 6px;
+    border-bottom-color: #47a2b1;" href="#pageone">Home</a></li>
+      <li><a class="ui-btn servizi" style="border-bottom-width: 6px;
+    border-bottom-color: #fcc700;" href="#contatti">Contatti</a></li>
+      <li><a class="ui-btn geol" style="border-bottom-width: 6px;
+    border-bottom-color: #660593;" href="#geol">Mappa</a></li>
+      
+    </ul>
+  </div>
+</div> 
+</div>
+        
+        
+        
+        
+        <div data-role="page" id="natura" class="pagina">
+  <div data-role="panel" id="myPanelNatura" data-display="push" data-dismissible="true" data-theme="a" class="ui-panel ui-panel-position-left">
+            <ul data-role="listview" class="ui-listview panel">
+                
+                <li><a class="ui-btn li-cultura" style="border-bottom-width: 6px;
+    border-bottom-color: #003f86;" href="#cultura">Cultura</a></li>
+                <li><a class="ui-btn li-natura" style="border-bottom-width: 6px;
+    border-bottom-color: #128d6e;" href="#natura" <span>Natura</span></a></li>
+                <li><a class="ui-btn li-ristoro" style="border-bottom-width: 6px;
+    border-bottom-color: #c70928;" href="#ristoro">Ristoro</a></li>
+                <li><a class="ui-btn li-alloggi" style="border-bottom-width: 6px;
+    border-bottom-color: #ee7f01;" href="#alloggi">Alloggi</a></li>
+               
+            </ul>
+        </div> 
+
+  <div data-role="header" data-position="fixed">
+      <div data-role="main" class="ui-content" style="background-color: #fff;">
+          <div class="logo" style="float:right;margin-right: 98px;">
+              <a href="#pageone"><img src="img/logo-bologna.jpg" alt=""/></a>
+          </div>
+    <a href="#myPanelNatura" class="ui-btn  ui-icon-bars ui-btn-icon-notext "></a>
+  </div>
+  </div>
+
+            
+                <div data-role="content">
+                <div id="natura-content" style="background-color: #fff;"></div>
+            </div>
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+  <div data-role="navbar">
+    <ul>
+      <li><a class="ui-btn li-home" style="border-bottom-width: 6px;
+    border-bottom-color: #47a2b1;" href="#pageone">Home</a></li>
+      <li><a class="ui-btn servizi" style="border-bottom-width: 6px;
+    border-bottom-color: #fcc700;" href="#contatti">Contatti</a></li>
+      <li><a class="ui-btn geol" style="border-bottom-width: 6px;
+    border-bottom-color: #660593;" href="#geol">Mappa</a></li>
+    </ul>
+  </div>
+</div> 
+</div>
+        
+        
+                <div data-role="page" id="ristoro" class="pagina">
+  <div data-role="panel" id="myPanelRistoro" data-display="push" data-dismissible="true" data-theme="a" class="ui-panel ui-panel-position-left">
+            <ul data-role="listview" class="ui-listview panel">
+                
+                <li><a class="ui-btn li-cultura" style="border-bottom-width: 6px;
+    border-bottom-color: #003f86;" href="#cultura">Cultura</a></li>
+                <li><a class="ui-btn li-natura" style="border-bottom-width: 6px;
+    border-bottom-color: #128d6e;" href="#natura" <span>Natura</span></a></li>
+                <li><a class="ui-btn li-ristoro" style="border-bottom-width: 6px;
+    border-bottom-color: #c70928;" href="#ristoro">Ristoro</a></li>
+                <li><a class="ui-btn li-alloggi" style="border-bottom-width: 6px;
+    border-bottom-color: #ee7f01;" href="#alloggi">Alloggi</a></li>
+               
+            </ul>
+        </div> 
+
+  <div data-role="header" data-position="fixed">
+      <div data-role="main" class="ui-content" style="background-color: #fff;">
+          <div class="logo" style="float:right;margin-right: 98px;">
+              <a href="#pageone"><img src="img/logo-bologna.jpg" alt=""/></a>
+          </div>
+    <a href="#myPanelRistoro" class="ui-btn  ui-icon-bars ui-btn-icon-notext "></a>
+  </div>
+  </div>
+
+            <div data-role="content">
+                <div id="ristoro-content" style="background-color: #fff;"></div>
+            </div>
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+  <div data-role="navbar">
+    <ul>
+      <li><a class="ui-btn li-home" style="border-bottom-width: 6px;
+    border-bottom-color: #47a2b1;" href="#pageone">Home</a></li>
+      <li><a class="ui-btn servizi" style="border-bottom-width: 6px;
+    border-bottom-color: #fcc700;" href="#contatti">Contatti</a></li>
+      <li><a class="ui-btn geol" style="border-bottom-width: 6px;
+    border-bottom-color: #660593;" href="#geol">Mappa</a></li>
+    </ul>
+  </div>
+</div> 
+</div>
+        
+        
+                        <div data-role="page" id="alloggi" class="pagina">
+  <div data-role="panel" id="myPanelAlloggi" data-display="push" data-dismissible="true" data-theme="a" class="ui-panel ui-panel-position-left">
+            <ul data-role="listview" class="ui-listview panel">
+                
+                <li><a class="ui-btn li-cultura" style="border-bottom-width: 6px;
+    border-bottom-color: #003f86;" href="#cultura">Cultura</a></li>
+                <li><a class="ui-btn li-natura" style="border-bottom-width: 6px;
+    border-bottom-color: #128d6e;" href="#natura" <span>Natura</span></a></li>
+                <li><a class="ui-btn li-ristoro" style="border-bottom-width: 6px;
+    border-bottom-color: #c70928;" href="#ristoro">Ristoro</a></li>
+                <li><a class="ui-btn li-alloggi" style="border-bottom-width: 6px;
+    border-bottom-color: #ee7f01;" href="#alloggi">Alloggi</a></li>
+               
+            </ul>
+        </div> 
+
+  <div data-role="header" data-position="fixed">
+      <div data-role="main" class="ui-content" style="background-color: #fff;">
+          <div class="logo" style="float:right;margin-right: 98px;">
+              <a href="#pageone"><img src="img/logo-bologna.jpg" alt=""/></a>
+          </div>
+    <a href="#myPanelAlloggi" class="ui-btn  ui-icon-bars ui-btn-icon-notext "></a>
+  </div>
+  </div>
+
+            <div data-role="content">
+                <div id="alloggi-content" style="background-color: #fff;"></div>
+            </div>
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+  <div data-role="navbar">
+    <ul>
+      <li><a class="ui-btn li-home" style="border-bottom-width: 6px;
+    border-bottom-color: #47a2b1;" href="#pageone">Home</a></li>
+      <li><a class="ui-btn servizi" style="border-bottom-width: 6px;
+    border-bottom-color: #fcc700;" href="#contatti">Contatti</a></li>
+      <li><a class="ui-btn geol" style="border-bottom-width: 6px;
+    border-bottom-color: #660593;" href="#geol">Mappa</a></li>
+    </ul>
+  </div>
+</div> 
+</div>
+                                <div data-role="page" id="geol" class="pagina">
+  <div data-role="panel" id="myPanelGeol" data-display="push" data-dismissible="true" data-theme="a" class="ui-panel ui-panel-position-left">
+            <ul data-role="listview" class="ui-listview panel">
+                
+                <li><a class="ui-btn li-cultura" style="border-bottom-width: 6px;
+    border-bottom-color: #003f86;" href="#cultura">Cultura</a></li>
+                <li><a class="ui-btn li-natura" style="border-bottom-width: 6px;
+    border-bottom-color: #128d6e;" href="#natura" <span>Natura</span></a></li>
+                <li><a class="ui-btn li-ristoro" style="border-bottom-width: 6px;
+    border-bottom-color: #c70928;" href="#ristoro">Ristoro</a></li>
+                <li><a class="ui-btn li-alloggi" style="border-bottom-width: 6px;
+    border-bottom-color: #ee7f01;" href="#alloggi">Alloggi</a></li>
+               
+            </ul>
+        </div> 
+
+  <div data-role="header" data-position="fixed">
+      <div data-role="main" class="ui-content" style="background-color: #fff;">
+          <div class="logo" style="float:right;margin-right: 98px;">
+              <a href="#pageone"><img src="img/logo-bologna.jpg" alt=""/></a>
+          </div>
+    <a href="#myPanelGeol" class="ui-btn  ui-icon-bars ui-btn-icon-notext "></a>
+  </div>
+  </div>
+
+            <div data-role="content">
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1EPNk_M19bUWczEigRiyl8zX4Xj8" width="640" height="480"></iframe>
+                </div>
+            </div>
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+  <div data-role="navbar">
+    <ul>
+      <li><a class="ui-btn li-home" style="border-bottom-width: 6px;
+    border-bottom-color: #47a2b1;" href="#pageone">Home</a></li>
+      <li><a class="ui-btn servizi" style="border-bottom-width: 6px;
+    border-bottom-color: #fcc700;" href="#contatti">Contatti</a></li>
+      <li><a class="ui-btn geol" style="border-bottom-width: 6px;
+    border-bottom-color: #660593;" href="#geol">Mappa</a></li>
+    </ul>
+  </div>
+</div> 
+</div>
+        
+                                        <div data-role="page" id="contatti" class="pagina">
+  <div data-role="panel" id="myPanelContatti" data-display="push" data-dismissible="true" data-theme="a" class="ui-panel ui-panel-position-left">
+            <ul data-role="listview" class="ui-listview panel">
+                
+                <li><a class="ui-btn li-cultura" style="border-bottom-width: 6px;
+    border-bottom-color: #003f86;" href="#cultura">Cultura</a></li>
+                <li><a class="ui-btn li-natura" style="border-bottom-width: 6px;
+    border-bottom-color: #128d6e;" href="#natura" <span>Natura</span></a></li>
+                <li><a class="ui-btn li-ristoro" style="border-bottom-width: 6px;
+    border-bottom-color: #c70928;" href="#ristoro">Ristoro</a></li>
+                <li><a class="ui-btn li-alloggi" style="border-bottom-width: 6px;
+    border-bottom-color: #ee7f01;" href="#alloggi">Alloggi</a></li>
+               
+            </ul>
+        </div> 
+
+  <div data-role="header" data-position="fixed">
+      <div data-role="main" class="ui-content" style="background-color: #fff;">
+          <div class="logo" style="float:right;margin-right: 98px;">
+              <a href="#pageone"><img src="img/logo-bologna.jpg" alt=""/></a>
+          </div>
+    <a href="#myPanelContatti" class="ui-btn  ui-icon-bars ui-btn-icon-notext "></a>
+  </div>
+  </div>
+
+            <div data-role="content">
+                <img class="bolognacontatti" src="img/contatti.jpg" alt=""/>
+                <hr align=”center” size=”3″ width=”100″ color=”red” noshade>
+               <h4 style="text-align: center;">Contatti </h4>
+               <hr align=”center” size=”3″ width=”100″ color=”red” noshade>
+               <div class="info1">
+               <p><strong>Sede Piazza Maggiore</strong></p>
+               <p>Piazza Maggiore, 1/e - 40124 Bologna</p>
+               <p><strong>Tel</strong></p>
+               <p>051 6583111</p>
+               <p><strong>Email</strong></p>
+               <p>booking@bolognawelcome.it</p>
+               </div>
+               <hr align=”center” size=”1″ width=”50″ color=”red” noshade>
+               <div class="info2">
+               <p><strong>Sede Aeroporto G. Marconi (Arrivi)</strong></p>
+               <p>Via Triumvirato, 84 - 40132 Bologna</p>
+               <p><strong>Tel</strong></p>
+               <p>051 6472201</p>
+               <p><strong>Email</strong></p>
+               <p>airport@bolognawelcome.it</p>
+               </div>
+               <hr align=”center” size=”1″ width=”50″ color=”red” noshade>
+               <div class="info3">
+               <p><strong>Prenotazioni e informazioni spettacoli</strong></p>
+               
+               <p><strong>Tel</strong></p>
+               <p>051 231454</p>
+               <p><strong>Email</strong></p>
+               <p>ticket@bolognawelcome.it</p>
+               </div>
+            </div>
+
+  <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+  <div data-role="navbar">
+    <ul>
+      <li><a class="ui-btn li-home" style="border-bottom-width: 6px;
+    border-bottom-color: #47a2b1;" href="#pageone">Home</a></li>
+      <li><a class="ui-btn servizi" style="border-bottom-width: 6px;
+    border-bottom-color: #fcc700;" href="#contatti">Contatti</a></li>
+      <li><a class="ui-btn geol" style="border-bottom-width: 6px;
+    border-bottom-color: #660593;" href="#geol">Mappa</a></li>
+    </ul>
+  </div>
+</div> 
+</div>
+        
+        
+        </body>
+</html>

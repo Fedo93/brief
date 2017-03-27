@@ -1,0 +1,240 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-mar-2017, 20.53.53
+    Author     : Fedo
+*/
+.bolognahome {
+    width: 100%;
+    height: 230px;
+    margin: 0 auto !important;
+    padding: 0px !important;
+}
+.bolognacontatti {
+    width: 100%;
+    height: 230px;
+    margin: 0 auto !important;
+    padding: 0px !important;
+}
+.bolognahome2 {
+    width: 100%;
+    height: 230px;
+    margin: 0 auto !important;
+    padding: 0px !important;
+}
+.info1 {
+    width: 100%;
+    height: 190px;
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+}
+.info2 {
+    width: 100%;
+    height: 190px;
+    margin: 0;
+    padding: 10px;
+}
+.info3 {
+    width: 100%;
+    height: 190px;
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+}
+.social {
+    float: left;
+}
+.box-social {
+    width: 100%;
+ 
+}
+
+ul {
+    list-style-type: none;
+}
+.pagina {
+    min-height: 100vh !important;
+}
+.ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited {
+    border-color:#fff;
+}
+.ui-content {
+    padding-left:0px;
+    padding-top:0px;
+    padding-right:0px;
+    padding-bottom: 0px;
+    margin: 0 auto;
+}
+.ui-panel-wrapper {
+    width: 100% !important;
+    height: 45px !important;
+    background-image: url("../css/img_cultura.png") !important;
+}
+.ui-btn li-cultura {
+    border-bottom-width: 2px;
+    border-bottom-color: #003f86;
+}
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top:2px solid #ccc;
+}
+p {
+    text-transform: none;
+    
+}
+h3 {
+    text-align: center;
+}
+.back {
+    width: 50px;
+    height: 50px;
+    background-color: #003f86;
+}
+.letorri {
+    width:100%; 
+    height:200px;
+    display:block;
+    margin-bottom:25px;
+    position:relative;
+}
+.letorri-box {
+    width: 150px;
+    height: 30px;
+    background-color: #003f86;
+    opacity: 0.9;
+}
+.letorri-box p {
+    color:#fff;
+    text-shadow: 0 0 0;
+    text-transform: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 2;
+}
+
+.letorri-box2 {
+    width: 150px;
+    height: 30px;
+    background-color: #128d6e;
+    opacity: 0.9;
+}
+.letorri-box2 p {
+    color:#fff;
+    text-shadow: 0 0 0;
+    text-transform: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 2;
+}
+
+.letorri-box3 {
+    width: 150px;
+    height: 30px;
+    background-color: #c70928;
+    opacity: 0.9;
+}
+.letorri-box3 p {
+    color:#fff;
+    text-shadow: 0 0 0;
+    text-transform: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 2;
+}
+
+.letorri-box4 {
+    width: 150px;
+    height: 30px;
+    background-color: #ee7f01;
+    opacity: 0.9;
+}
+.letorri-box4 p {
+    color:#fff;
+    text-shadow: 0 0 0;
+    text-transform: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 2;
+}
+strong {
+    text-transform: capitalize;
+}
+.content-parallax {
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+.logo img {
+    width: 150px;
+    height: 50px;
+}
+
+input, textarea {
+	padding: 10px;
+	border: 1px solid #E5E5E5;
+	width: 200px;
+	color: #999999;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;		
+}
+
+textarea {
+	width: 400px;
+	height: 150px;
+	max-width: 400px;
+	line-height: 18px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;	
+}
+.ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
+        color:#fff;
+        text-shadow:0 0 0;
+}
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit {
+    background-color: #fff;
+}
+.form label {
+	margin-left: 10px;
+	color: #999999;
+}
+
+/* ===========================
+   ====== Submit Button ====== 
+   =========================== */
+
+.submit input {
+	width: 100px; 
+	height: 40px;
+	background-color: #474E69; 
+	color: #FFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;		
+}
+.maps {
+    width: 100%;
+    height: 500px;
+}
